@@ -1,4 +1,4 @@
 policy "aws-tags" {
-  source = "nforce-mandatory-tags"
+  source = "enforce-mandatory-tags.sentinel"
   enforcement_level = "advisory"
 }
